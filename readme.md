@@ -18,8 +18,8 @@ For example, you have a `Person` class like below:
 ```php
 class Person
 {
-	public $name;
-	public $age;
+    public $name;
+    public $age;
 }
 
 $person = new Person();
@@ -36,10 +36,10 @@ Here is how you can make your object strict i.e. not allow any other properties 
 ```php
 class Person
 {
-	use Zeeshanu\Yell\Scream;
+    use Zeeshanu\Yell\Scream;
 
-	public $name;
-	public $age;
+    public $name;
+    public $age;
 }
 
 $person = new Person();
