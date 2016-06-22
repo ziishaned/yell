@@ -2,6 +2,8 @@
 
 namespace Tests;
 
+use Tests\Person;
+
 class ScreamTest extends \PHPUnit_Framework_TestCase 
 {
 	public function testCanAssignValueForExistingProperties() {
