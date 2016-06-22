@@ -31,7 +31,7 @@ $person->age = 23;
 $person->profession = 'Teacher';
 ```
 
-And you would like to not allow any other properties being set on the class, except for the ones that the class has. Just `use Zeeshanu\Yell\Scream` trait in your class as follows
+Here is how you can make your object strict i.e. not allow any other properties except `$name` and `$age` and throw exceptions for any other properties. Just `use Zeeshanu\Yell\Scream` trait in your class as follows
 
 ```php
 class Person
