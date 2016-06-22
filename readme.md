@@ -5,8 +5,21 @@ A php package that yells when you try to access a property that doesn't exist in
 PHP >= 5.3.0.
 
 ##Installation
-You can install the library using the following:
+You can install the library using the following ways:
 
+##Using Composer
+You can install this through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just add <code>zeeshanu/yell</code> to your project's <code>composer.json</code> file:
+
+```
+{
+    "require": {
+        "zeeshanu/yell": "*"
+    }
+}
+```
+and then run <code>composer install</code>. For further details you can find the package at <a href="https://packagist.org/packages/zeeshanu/yell">Packagist</a>.
+
+##Manual way
 - Copy <code>src</code> to your codebase, perhaps to the vendor directory.
 - Add the <code>Zeeshanu\Yell\Scream</code> class to your autoloader or require the file directly.
 
