@@ -1,6 +1,6 @@
 <?php 
 
-namespace Zeeshanu\Exceptions;
+namespace Zeeshanu\Yell\Exceptions;
 
 use Exception;
 

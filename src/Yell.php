@@ -1,10 +1,10 @@
 <?php 
 
-namespace Zeeshanu;
+namespace Zeeshanu\Yell;
 
 use Zeeshanu\Exceptions\UndefinedPropertyException;
 
-trait Yell 
+trait Scream
 {
 	/**
 	 * Property name that user trying to set or get.
