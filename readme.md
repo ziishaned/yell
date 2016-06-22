@@ -18,8 +18,8 @@ For example, you have a `Person` class like below:
 ```php
 class Person
 {
-	public function $name;
-	public function $age;
+	public $name;
+	public $age;
 }
 
 $person = new Person();
@@ -38,8 +38,8 @@ class Person
 {
 	use Zeeshanu\Yell\Scream;
 
-	public function $name;
-	public function $age;
+	public $name;
+	public $age;
 }
 
 $person = new Person();
