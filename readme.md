@@ -64,7 +64,7 @@ $person = new Person();
 $person->name = 'John Doe';
 $person->age = 23;
 
-// An exception will be thrown when showing message "Trying to set undefined property $name in class Person"  
+// An exception will be thrown when showing message "Trying to set undefined property $profession in class Person"  
 $person->profession = 'Teacher';
 ```
 
