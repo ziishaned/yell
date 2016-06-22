@@ -1,7 +1,5 @@
 #Yell
-[![Build Status](https://travis-ci.org/zeeshanu/yell.svg?branch=master)](https://travis-ci.org/zeeshanu/yell)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zeeshanu/yell/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/zeeshanu/yell/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/zeeshanu/yell/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zeeshanu/yell/?branch=master)
 [![Code Climate](https://codeclimate.com/repos/576ab2d18955b300900019bc/badges/17ee5ae2c2c22651d6f9/gpa.svg)](https://codeclimate.com/repos/576ab2d18955b300900019bc/feed)
 [![Latest Stable Version](https://poser.pugx.org/zeeshanu/yell/v/stable.svg)](https://packagist.org/packages/zeeshanu/yell)
 [![License](https://poser.pugx.org/zeeshanu/yell/license)](https://packagist.org/packages/zeeshanu/yell)
