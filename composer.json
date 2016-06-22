@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Zeeshanu\\": "src/"
+            "Zeeshanu\\Yell\\": "src/"
         }
     },
     "require": {

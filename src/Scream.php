@@ -2,7 +2,7 @@
 
 namespace Zeeshanu\Yell;
 
-use Zeeshanu\Exceptions\UndefinedPropertyException;
+use Zeeshanu\Yell\Exceptions\UndefinedPropertyException;
 
 trait Scream
 {
