@@ -1,5 +1,5 @@
 #Yell
-A php package that yells when you try to access a property that doesn't exist in a class.
+A php package that makes your objects strict and yells when you try to access or set some undefined property.
 
 ##Requirement
 PHP >= 5.3.0.
