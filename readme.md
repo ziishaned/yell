@@ -34,9 +34,11 @@ $person->profession = 'Teacher';
 Here is how you can make your object strict i.e. not allow any other properties except `$name` and `$age` and throw exceptions for any other properties. Just `use Zeeshanu\Yell\Scream` trait in your class as follows
 
 ```php
+use Zeeshanu\Yell\Scream;
+
 class Person
 {
-    use Zeeshanu\Yell\Scream;
+    use Scream;
 
     public $name;
     public $age;
