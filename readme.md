@@ -1,5 +1,5 @@
 #Yell
-A php package that makes your objects strict and yells when you try to access or set some undefined property.
+PHP package to make your objects strict and throw exception when you try to access or set some undefined property in your objects.
 
 ##Requirement
 PHP >= 5.3.0.
