@@ -14,9 +14,9 @@ class ScreamTest extends \PHPUnit_Framework_TestCase
 	}
 
 	public function testCannotAssignValueForNonExistingProperties() {
+		$this->setExpectedException(UndefinedPropertyException::class);
+		
 		$person = new Person();
 		$person->profession = 'Teacher';
-
-		$this->setExpectedException("UndefinedPropertyException");
 	}
 }
