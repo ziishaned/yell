@@ -8,16 +8,13 @@ PHP >= 5.3.0.
 You can install the library using the following ways:
 
 ##Using Composer
-You can install this through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just add <code>zeeshanu/yell</code> to your project's <code>composer.json</code> file:
+You can install this through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just run the below command:
 
 ```
-{
-    "require": {
-        "zeeshanu/yell": "*"
-    }
-}
+composer require zeeshanu/yell
 ```
-and then run <code>composer install</code>. For further details you can find the package at <a href="https://packagist.org/packages/zeeshanu/yell">Packagist</a>.
+
+For further details you can find the package at <a href="https://packagist.org/packages/zeeshanu/yell">Packagist</a>.
 
 ##Manual way
 - Copy <code>src</code> to your codebase, perhaps to the vendor directory.
