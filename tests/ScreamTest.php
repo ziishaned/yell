@@ -2,8 +2,6 @@
 
 namespace Tests;
 
-use Zeeshanu\Yell\Exceptions\UndefinedPropertyException;
-
 class ScreamTest extends \PHPUnit_Framework_TestCase 
 {
 	public function testCanAssignValueForExistingProperties() {
@@ -14,7 +12,7 @@ class ScreamTest extends \PHPUnit_Framework_TestCase
 	}
 
 	public function testCannotAssignValueForNonExistingProperties() {
-		$this->setExpectedException(UndefinedPropertyException::class);
+		$this->setExpectedException('Zeeshanu\Yell\Exceptions\UndefinedPropertyException');
 		
 		$person = new Person();
 		$person->profession = 'Teacher';
