@@ -16,7 +16,6 @@
     "autoload": {
         "psr-4": {
             "Zeeshanu\\Yell\\": "src/",
-            "Tests\\": "tests/"
         }
     },
     "require": {
