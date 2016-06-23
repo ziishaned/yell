@@ -7,7 +7,7 @@
 PHP package to make your objects strict and throw exception when you try to access or set some undefined property in your objects.
 
 ##Requirement
-PHP >= 5.3.0.
+PHP >= 5.4.0.
 
 ##Installation
 You can install the library using the following ways:
