@@ -18,7 +18,7 @@ trait Scream
     public function __get($propertyName)
     {
         if (! property_exists($this, $propertyName)) {
-            throw new UndefinedPropertyException($this->getScreamErrorMessage("get"));
+            throw new UndefinedPropertyException($this->getScreamErrorMessage("get", $propertyName));
         }
     }
 
